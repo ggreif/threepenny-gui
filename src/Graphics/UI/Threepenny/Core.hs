@@ -214,7 +214,7 @@ column = grid . map (:[])
 -- >   ...
 -- >   </div>
 --
--- You can customatize the actual layout by assigning an @id@ to the element
+-- You can customize the actual layout by assigning an @id@ to the element
 -- and changing the @.table@, @.table-row@ and @table-column@
 -- classes in a custom CSS file.
 grid    :: [[UI Element]] -> UI Element
